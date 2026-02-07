@@ -41,29 +41,6 @@ Each day introduces a new concept through a **real-world application**, ensuring
 
 ---
 
-### 🔥 What Makes This Different?
-
-Instead of solving theoretical problems, each concept is **implemented in a real-world scenario** — exactly what interviewers look for.
-
----
-
-## 🧠 Skills & Concepts Covered
-
-<div align="center">
-
-| Core Concepts | Advanced Topics | Best Practices |
-|:------------:|:--------------:|:-------------:|
-| Variables & Functions | LocalStorage | Code Organization |
-| DOM Manipulation | Debounce & Throttle | Error Handling |
-| Event Handling | OOP Patterns | Performance |
-| Arrays & Objects | Modular JS | Accessibility |
-| Form Validation | API Integration | Responsive Design |
-| Higher-Order Functions | State Management | Clean Code |
-
-</div>
-
----
-
 ## 📂 Project Showcase
 
 ### 🔰 **Foundation Projects** (Days 1-5)
@@ -85,12 +62,6 @@ Instead of solving theoretical problems, each concept is **implemented in a real
 
 ---
 
-### 🚀 **Intermediate Projects** (Days 6-10)
-
-<details open>
-<summary><b>Click to expand</b></summary>
-<br>
-
 | Day | Project | Key Concepts | Live Demo |
 |:---:|---------|--------------|:---------:|
 | **06** | 💰 **Expense Tracker** | Sum Calculation, Data Management | [🔗 Demo](#) |
@@ -103,11 +74,6 @@ Instead of solving theoretical problems, each concept is **implemented in a real
 
 ---
 
-### 💎 **Advanced Projects** (Days 11-15)
-
-<details open>
-<summary><b>Click to expand</b></summary>
-<br>
 
 | Day | Project | Key Concepts | Live Demo |
 |:---:|---------|--------------|:---------:|
@@ -121,11 +87,8 @@ Instead of solving theoretical problems, each concept is **implemented in a real
 
 ---
 
-### 🏆 **Professional Projects** (Days 16-20)
+### 🏆 **Advanced Projects** (Days 16-20)
 
-<details open>
-<summary><b>Click to expand</b></summary>
-<br>
 
 | Day | Project | Key Concepts | Live Demo |
 |:---:|---------|--------------|:---------:|
