@@ -9,7 +9,7 @@
 [![GitHub Issues](https://img.shields.io/github/issues/riteshpatel1884/20-days-20-js-projects)](https://github.com/riteshpatel1884/20-days-20-js-projects/issues)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-[Live Demo](https://riteshpatel1884.github.io/20-days-20-js-projects) • [Report Bug](https://github.com/riteshpatel1884/20-days-20-js-projects/issues) • [Request Feature](https://github.com/riteshpatel1884/20-days-20-js-projects/issues)
+[Report Bug](https://github.com/riteshpatel1884/20-days-20-js-projects/issues) • [Request Feature](https://github.com/riteshpatel1884/20-days-20-js-projects/issues)
 
 </div>
 
