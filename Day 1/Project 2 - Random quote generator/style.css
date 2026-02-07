@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: #000000;
+}
+
+.section {
+  background: #1a1a1a;
+  backdrop-filter: blur(10px);
+  padding: 50px 40px;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(255, 255, 255, 0.1);
+  max-width: 700px;
+  width: 100%;
+  animation: fadeIn 0.6s ease-out;
+  border: 1px solid #333;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#display {
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  margin-bottom: 30px;
+  background: #0a0a0a;
+  border-radius: 15px;
+  border-left: 5px solid #ffffff;
+  position: relative;
+  border: 1px solid #333;
+}
+
+#display::before {
+  content: '"';
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  font-size: 4rem;
+  color: #ffffff;
+  opacity: 0.1;
+  font-family: Georgia, serif;
+}
+
+#display p {
+  font-size: 1.4rem;
+  line-height: 1.8;
+  color: #ffffff;
+  text-align: center;
+  font-style: italic;
+  position: relative;
+  z-index: 1;
+  font-family: 'Georgia', 'Garamond', 'Times New Roman', serif;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+#display.empty {
+  color: #666;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+#generate {
+  width: 100%;
+  padding: 16px 32px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #000000;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#generate:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.4);
+  background-color: #f0f0f0;
+}
+
+#generate:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding: 30px 25px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  #display p {
+    font-size: 1.2rem;
+  }
+
+  #generate {
+    font-size: 1rem;
+    padding: 14px 28px;
+  }
+}
