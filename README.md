@@ -43,7 +43,7 @@ Each day introduces a new concept through a **real-world application**, ensuring
 
 ## 📂 Project Showcase
 
-### 🔰 **Foundation Projects** (Days 1-5)
+### 🔰 **Foundation Projects** (Days 1-15)
 
 | Day | Project | Key Concepts | Live Demo |
 |:---:|---------|--------------|:---------:|
@@ -135,31 +135,6 @@ cd Day-01-Tip-Calculator
 # Open index.html in your browser
 # Or use Live Server extension in VS Code
 ```
-
-### 📁 Project Structure
-
-```
-20-days-20-js-projects/
-├── Day-01-Tip-Calculator/
-│   ├── index.html
-│   ├── style.css
-│   ├── script.js
-│   └── README.md
-├── Day-02-Todo-List/
-│   ├── index.html
-│   ├── style.css
-│   ├── script.js
-│   └── README.md
-└── ...
-```
-
-Each project folder contains:
-- ✅ Complete source code
-- ✅ Dedicated README with project details
-- ✅ Live demo link
-- ✅ Code comments and documentation
-
----
 
 ## 💼 Interview Preparation
 
