@@ -1,0 +1,29 @@
+Step 1 — Define the Minimum input
+
+-> Bill amount 
+-> Tip percentage input (or buttons like 5%, 10%, 15%) or Tip per person
+-> Input: Number of people
+
+
+
+Step 2 — Break the Logic
+
+-> Tip amount = bill × tip %
+-> Total amount = bill + tip
+-> Per person = total ÷ number of people
+
+
+
+Step 3 — Handle Edge Cases
+
+Add:
+-> Bill = 0
+-> People = 0 (avoid division error)
+-> Empty inputs
+
+
+
+Step 4 - Output
+
+-> Output: Tip per person
+-> Output: Total Tip
