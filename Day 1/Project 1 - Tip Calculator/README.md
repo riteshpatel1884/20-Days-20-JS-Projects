@@ -7,3 +7,6 @@
 - HTML
 - CSS
 - JavaScript
+
+## 🛠 Tech Stack
+<img width="1914" height="1139" alt="image" src="https://github.com/user-attachments/assets/2dbb05fd-4522-4b9d-8116-f9757fbbf3dc" />
