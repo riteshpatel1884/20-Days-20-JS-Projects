@@ -73,11 +73,11 @@ Each day introduces a new concept through a **real-world application**, ensuring
 
 | Day | Project | Key Concepts | Live Demo |
 |:---:|---------|--------------|:---------:|
-| **11** | ✔️ **Form Validation** | Regex, Error Handling, UX | [🔗 Demo](#) |
-| **12** | 🔐 **Login Form Validation** | Authentication Flow, Security | [🔗 Demo](#) |
-| **13** | 🗂️ **Nested Menu** | Recursion, Dynamic Menus | [🔗 Demo](#) |
-| **14** | 📝 **OOP Quiz App** | Classes, Encapsulation, State | [🔗 Demo](#) |
-| **15** | 📦 **Modular Todo App** | ES6 Modules, Separation of Concerns | [🔗 Demo](#) |
+| **11** | ✔️ **Form Validation** | Regex, Error Handling, UX | Coming Soon |
+| **12** | 🔐 **Login Form Validation** | Authentication Flow, Security | Coming Soon |
+| **13** | 🗂️ **Nested Menu** | Recursion, Dynamic Menus | Coming Soon |
+| **14** | 📝 **OOP Quiz App** | Classes, Encapsulation, State | Coming Soon |
+| **15** | 📦 **Modular Todo App** | ES6 Modules, Separation of Concerns | Coming Soon |
 
 </details>
 
@@ -88,11 +88,11 @@ Each day introduces a new concept through a **real-world application**, ensuring
 
 | Day | Project | Key Concepts | Live Demo |
 |:---:|---------|--------------|:---------:|
-| **16** | ⌨️ **Typing Speed Tester** | Timing Functions, Performance Metrics | [🔗 Demo](#) |
-| **17** | 🎯 **Drag & Drop Todo Board** | Drag/Drop API, Visual Feedback | [🔗 Demo](#) |
-| **18** | 🐙 **GitHub Profile Viewer** | Fetch API, Async/Await, Error Handling | [🔗 Demo](#) |
-| **19** | ✅ **Advanced Form Validator** | Complex Validation, Custom Patterns | [🔗 Demo](#) |
-| **20** | 📝 **Markdown Previewer** | Real-time Parsing, Split View | [🔗 Demo](#) |
+| **16** | ⌨️ **Typing Speed Tester** | Timing Functions, Performance Metrics | Coming Soon |
+| **17** | 🎯 **Drag & Drop Todo Board** | Drag/Drop API, Visual Feedback | Coming Soon |
+| **18** | 🐙 **GitHub Profile Viewer** | Fetch API, Async/Await, Error Handling | Coming Soon |
+| **19** | ✅ **Advanced Form Validator** | Complex Validation, Custom Patterns | Coming Soon |
+| **20** | 📝 **Markdown Previewer** | Real-time Parsing, Split View | Coming Soon |
 
 </details>
 
