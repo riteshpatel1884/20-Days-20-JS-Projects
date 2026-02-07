@@ -11,7 +11,7 @@ A simple JavaScript app that generates random inspirational quotes.
 - JavaScript
 
 ## 📸 Preview
-(Add screenshot here)
+<img width="1905" height="1062" alt="image" src="https://github.com/user-attachments/assets/49be6c1a-ec51-4649-966b-c16d41f72ebe" />
 
 ## 📂 Features
 - Random quote generation
