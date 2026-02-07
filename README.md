@@ -45,10 +45,6 @@ Each day introduces a new concept through a **real-world application**, ensuring
 
 ### 🔰 **Foundation Projects** (Days 1-5)
 
-<details open>
-<summary><b>Click to expand</b></summary>
-<br>
-
 | Day | Project | Key Concepts | Live Demo |
 |:---:|---------|--------------|:---------:|
 | **01** | 🧮 **Tip Calculator** | Variables, Functions, DOM Events | [🔗 Demo](https://riteshpatel1884.github.io/20-Days-20-JS-Projects/Day%201/Project%201%20-%20Tip%20Calculator/) |
