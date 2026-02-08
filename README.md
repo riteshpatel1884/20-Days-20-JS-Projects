@@ -49,7 +49,7 @@ Each day introduces a new concept through a **real-world application**, ensuring
 |:---:|---------|--------------|:---------:|
 | **01** | 🧮 **Tip Calculator** | Variables, Functions, DOM Events | [🔗 Demo](https://riteshpatel1884.github.io/20-Days-20-JS-Projects/Day%201/Project%201%20-%20Tip%20Calculator/) |
 | **01** | 💬 **Random Quote Generator** | Arrays, Random Selection, DOM | [🔗 Demo](https://riteshpatel1884.github.io/20-Days-20-JS-Projects/Day%201/Project%202%20-%20Random%20quote%20generator/) |
-| **02** | ✅ **Todo List** | CRUD Operations, LocalStorage | Coming Soon |
+| **02** | ✅ **Todo List** | CRUD Operations, LocalStorage | [🔗 Demo](https://riteshpatel1884.github.io/20-Days-20-JS-Projects/Day%201/Project%203%20-%20To%20do%20List/) |
 | **03** | 📚 **Student Record Manager** | Objects, Array Methods, Filtering | Coming Soon |
 | **04** | 📄 **Pagination Simulator** | Array Slicing, Dynamic Rendering | Coming Soon |
 | **05** | 🔍 **Product Filter UI** | Filter Logic, Event Handling | Coming Soon |
