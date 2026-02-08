@@ -52,7 +52,17 @@ Each day introduces a new concept through a **real-world application**, ensuring
 | **02** | ✅ **Todo List** | CRUD Operations, LocalStorage | [🔗 Demo](https://riteshpatel1884.github.io/20-Days-20-JS-Projects/Day%201/Project%203%20-%20To%20do%20List/) |
 | **03** | 📚 **Student Record Manager** | Objects, Array Methods, Filtering | Coming Soon |
 | **04** | 📄 **Pagination Simulator** | Array Slicing, Dynamic Rendering | Coming Soon |
-| **05** | 🔍 **Product Filter UI** | Filter Logic, Event Handling | Coming Soon |
+| **05** | 🔍 **Product Filter UI** | Filter Logic, Event Handling | Coming Soon |\
+| **06** | 💰 **Expense Tracker** | Sum Calculation, Data Management | Coming Soon |
+| **07** | 👤 **Profile Card Builder** | Template Rendering, Input Handling | Coming Soon |
+| **08** | 🧾 **Dynamic Invoice Generator** | Complex Calculations, Print Styling | Coming Soon |
+| **09** | 🧮 **Advanced Calculator** | Eval Safety, Complex Logic | Coming Soon |
+| **10** | ⚡ **Debounce & Throttle Demo** | Performance Optimization | Coming Soon |
+| **11** | ✔️ **Form Validation** | Regex, Error Handling, UX | Coming Soon |
+| **12** | 🔐 **Login Form Validation** | Authentication Flow, Security | Coming Soon |
+| **13** | 🗂️ **Nested Menu** | Recursion, Dynamic Menus | Coming Soon |
+| **14** | 📝 **OOP Quiz App** | Classes, Encapsulation, State | Coming Soon |
+| **15** | 📦 **Modular Todo App** | ES6 Modules, Separation of Concerns | Coming Soon |
 
 </details>
 
