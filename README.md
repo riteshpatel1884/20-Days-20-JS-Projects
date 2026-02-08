@@ -67,27 +67,6 @@ Each day introduces a new concept through a **real-world application**, ensuring
 </details>
 
 
-| Day | Project | Key Concepts | Live Demo |
-|:---:|---------|--------------|:---------:|
-| **06** | 💰 **Expense Tracker** | Sum Calculation, Data Management | Coming Soon |
-| **07** | 👤 **Profile Card Builder** | Template Rendering, Input Handling | Coming Soon |
-| **08** | 🧾 **Dynamic Invoice Generator** | Complex Calculations, Print Styling | Coming Soon |
-| **09** | 🧮 **Advanced Calculator** | Eval Safety, Complex Logic | Coming Soon |
-| **10** | ⚡ **Debounce & Throttle Demo** | Performance Optimization | Coming Soon |
-
-</details>
-
-
-| Day | Project | Key Concepts | Live Demo |
-|:---:|---------|--------------|:---------:|
-| **11** | ✔️ **Form Validation** | Regex, Error Handling, UX | Coming Soon |
-| **12** | 🔐 **Login Form Validation** | Authentication Flow, Security | Coming Soon |
-| **13** | 🗂️ **Nested Menu** | Recursion, Dynamic Menus | Coming Soon |
-| **14** | 📝 **OOP Quiz App** | Classes, Encapsulation, State | Coming Soon |
-| **15** | 📦 **Modular Todo App** | ES6 Modules, Separation of Concerns | Coming Soon |
-
-</details>
-
 
 ### 🏆 **Advanced Projects** (Days 16-20)
 
