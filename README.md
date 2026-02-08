@@ -56,7 +56,6 @@ Each day introduces a new concept through a **real-world application**, ensuring
 
 </details>
 
----
 
 | Day | Project | Key Concepts | Live Demo |
 |:---:|---------|--------------|:---------:|
@@ -67,8 +66,6 @@ Each day introduces a new concept through a **real-world application**, ensuring
 | **10** | ⚡ **Debounce & Throttle Demo** | Performance Optimization | Coming Soon |
 
 </details>
-
----
 
 
 | Day | Project | Key Concepts | Live Demo |
@@ -81,7 +78,6 @@ Each day introduces a new concept through a **real-world application**, ensuring
 
 </details>
 
----
 
 ### 🏆 **Advanced Projects** (Days 16-20)
 
