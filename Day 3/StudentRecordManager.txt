@@ -1,0 +1,32 @@
+1. Minimum features
+-> Add student
+-> Show student list
+-> Delete student
+-> Prevent duplicate entries
+
+
+2. HTML Form
+Inputs: Name, Age, Course and Add button
+
+
+3. Capture Form Data
+On button click:
+-> Read values
+-> Validate empty fields
+-> Create a student object
+
+
+4. Store Student
+-> Push object into array: students.push(studentObject)
+
+
+5. Render Students to UI
+      Student List
+------------------------
+Name | Age | Course | Delete
+
+
+6. Delete Student
+When clicked:
+-> Remove from array
+-> Re-render UI
