@@ -30,7 +30,8 @@ Users can add, view, and delete student details in an interactive interface.
 
 ## 📸 Preview
 <img width="1919" height="1197" alt="image" src="https://github.com/user-attachments/assets/53cf5770-783c-4fb4-8a47-f3ab9e54c03e" />
-![Uploading image.png…]()
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/9f083498-f228-4515-ad5e-6331a89c7dd2" />
+
 
 
 
