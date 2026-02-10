@@ -52,7 +52,7 @@ Each day introduces a new concept through a **real-world application**, ensuring
 | **02** | ✅ **Todo List** | CRUD Operations, LocalStorage | [🔗 Demo](https://riteshpatel1884.github.io/20-Days-20-JS-Projects/Day%202/Project%203/) |
 | **03** | 📚 **Student Record Manager** | Objects, Array Methods, Filtering | [🔗 Demo](https://riteshpatel1884.github.io/20-Days-20-JS-Projects/Day%203/Project%204%20-%20Student%20Record%20Manager/) |
 | **04** | 📄 **Pagination Simulator** | Array Slicing, Dynamic Rendering | Coming Soon |
-| **05** | 🔍 **Product Filter UI** | Filter Logic, Event Handling | Coming Soon |\
+| **05** | 🔍 **Product Filter UI** | Filter Logic, Event Handling | [🔗 Demo] (https://riteshpatel1884.github.io/20-Days-20-JS-Projects/Day%204/Project%205%20-%20Product%20Filter/) |\
 | **06** | 💰 **Expense Tracker** | Sum Calculation, Data Management | Coming Soon |
 | **07** | 👤 **Profile Card Builder** | Template Rendering, Input Handling | Coming Soon |
 | **08** | 🧾 **Dynamic Invoice Generator** | Complex Calculations, Print Styling | Coming Soon |
