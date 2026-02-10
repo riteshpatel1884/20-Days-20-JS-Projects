@@ -1,0 +1,28 @@
+Step 1 — Prepare Product Data
+-> Create an array of objects:
+
+
+Step 2 — Create UI Layout (HTML)
+You need:
+-> Filter buttons or dropdown
+-> Container to display products
+
+
+Step 3 — Render Products
+Write a function that:
+-> Clears the container
+-> Loops through products
+-> Creates product cards
+-> Appends them
+
+Important habit:
+Always render from the array, not manually add HTML pieces randomly.
+
+
+Step 4 — Add Filter Logic
+When a filter button is clicked:
+-> Filter products array using: filteredProducts = products.filter(...)
+-> Call render function using filtered array.
+
+
+
