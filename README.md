@@ -53,7 +53,7 @@ Each day introduces a new concept through a **real-world application**, ensuring
 | **03** | 📚 **Student Record Manager** | Objects, Array Methods, Filtering | [🔗 Demo](https://riteshpatel1884.github.io/20-Days-20-JS-Projects/Day%203/Project%204%20-%20Student%20Record%20Manager/) |
 | **04** | 📄 **Pagination Simulator** | Array Slicing, Dynamic Rendering | Coming Soon |
 | **05** | 🔍 **Product Filter UI** | Filter Logic, Event Handling | [🔗 Demo](https://riteshpatel1884.github.io/20-Days-20-JS-Projects/Day%204/Project%205%20-%20Product%20Filter/) |
-| **06** | 💰 **Expense Tracker** | Sum Calculation, Data Management | Coming Soon |
+| **06** | 💰 **Expense Tracker** | Sum Calculation, Data Management | [🔗 Demo](https://riteshpatel1884.github.io/20-Days-20-JS-Projects/Day%205/Project%206%20-%20Expense%20Tracker/) |
 | **07** | 👤 **Profile Card Builder** | Template Rendering, Input Handling | Coming Soon |
 | **08** | 🧾 **Dynamic Invoice Generator** | Complex Calculations, Print Styling | Coming Soon |
 | **09** | 🧮 **Advanced Calculator** | Eval Safety, Complex Logic | Coming Soon |
