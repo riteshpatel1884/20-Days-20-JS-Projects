@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background: #000000;
+  min-height: 100vh;
+  padding: 20px;
+  color: #fff;
+}
+
+section {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #000000;
+  border-radius: 0;
+  padding: 40px;
+}
+
+#heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 40px;
+  letter-spacing: -1px;
+}
+
+/* Filter Section */
+#filter {
+  background: #ffffff;
+  padding: 20px 24px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  border: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.05);
+}
+
+#filter label {
+  font-weight: 600;
+  color: #000;
+  margin-right: 15px;
+  font-size: 1rem;
+}
+
+#filterCategory {
+  padding: 10px 15px;
+  border: 2px solid #000;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 200px;
+  font-weight: 500;
+}
+
+#filterCategory:hover {
+  background: #f9f9f9;
+}
+
+#filterCategory:focus {
+  outline: none;
+  border-color: #000;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Section */
+#inputs {
+  background: #ffffff;
+  padding: 32px;
+  border-radius: 12px;
+  margin-bottom: 48px;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.05);
+}
+
+#expenseForm label {
+  display: block;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+#expenseForm input[type="text"],
+#expenseForm input[type="number"],
+#expenseForm input[type="date"],
+#expenseForm select {
+  width: 100%;
+  padding: 12px 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #ffffff;
+  color: #000;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+#expenseForm input[type="text"]:focus,
+#expenseForm input[type="number"]:focus,
+#expenseForm input[type="date"]:focus,
+#expenseForm select:focus {
+  outline: none;
+  border-color: #000;
+  background: #fafafa;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.05);
+}
+
+#expenseForm input::placeholder {
+  color: #999;
+}
+
+#choose_category {
+  cursor: pointer;
+}
+
+#submit {
+  width: 100%;
+  padding: 15px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+#submit:hover {
+  background: #1a1a1a;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+#submit:active {
+  transform: translateY(0);
+}
+
+/* Expenses Section */
+h2 {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 16px;
+  margin-top: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#expenseList {
+  margin-bottom: 32px;
+  min-height: 60px;
+  background: transparent;
+  padding: 0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Expense Card - Clean List Design */
+.parentDiv {
+  background: #ffffff;
+  border: none;
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.25s ease;
+  animation: slideIn 0.3s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.parentDiv:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+.single_expense {
+  color: #1a1a1a;
+  font-size: 1rem;
+  font-weight: 500;
+  flex: 1;
+  line-height: 1.6;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.delete_button {
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+.delete_button:hover {
+  background: #1a1a1a;
+  transform: scale(1.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.delete_button:active {
+  transform: scale(0.98);
+}
+
+/* Total Section */
+.total-container {
+  background: linear-gradient(135deg, #1a1a1a 0%, #000 100%);
+  border-radius: 12px;
+  padding: 28px 32px;
+  margin-top: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.total-label {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+#totalExpense {
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 2.5rem;
+  letter-spacing: -1px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  section {
+    padding: 20px;
+  }
+
+  #heading {
+    font-size: 2rem;
+  }
+
+  #inputs {
+    padding: 24px;
+  }
+
+  .parentDiv {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 20px;
+  }
+
+  .single_expense {
+    width: 100%;
+  }
+
+  .delete_button {
+    width: 100%;
+  }
+
+  #filterCategory {
+    width: 100%;
+  }
+
+  #totalExpense {
+    font-size: 2rem;
+  }
+}
+
+/* Empty state styling */
+#expenseList:empty::after {
+  content: "No expenses yet. Add your first expense above!";
+  display: block;
+  text-align: center;
+  padding: 48px 24px;
+  color: rgba(255, 255, 255, 0.3);
+  font-style: italic;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 12px;
+  border: 2px dashed rgba(255, 255, 255, 0.1);
+  font-size: 0.95rem;
+}
