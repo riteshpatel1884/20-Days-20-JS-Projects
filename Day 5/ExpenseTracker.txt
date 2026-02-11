@@ -1,0 +1,23 @@
+1. Add Expense
+-> Amount
+-> Title (Food, Travel, etc.)
+-> Date (optional but useful)
+-> Category
+
+2. Show Expense List
+-> Show amount , title and  date
+-> Each item should have delete button
+
+
+3. Total Calculation: Automatically calculate total expenses
+-> Update total instantly when adding expense and deleting expense
+
+
+4. Local Storage
+-> If data disappears on refresh, the project feels incomplete.
+Save expenses in localStorage.
+
+
+5. Basic Filtering (optional but strong)
+-> Filter by category
+-> Filter by month
