@@ -55,7 +55,7 @@ Each day introduces a new concept through a **real-world application**, ensuring
 | **05** | 🔍 **Product Filter UI** | Filter Logic, Event Handling | [🔗 Demo](https://riteshpatel1884.github.io/20-Days-20-JS-Projects/Day%204/Project%205%20-%20Product%20Filter/) |
 | **06** | 💰 **Expense Tracker** | Sum Calculation, Data Management | [🔗 Demo](https://riteshpatel1884.github.io/20-Days-20-JS-Projects/Day%205/Project%206%20-%20Expense%20Tracker/) |
 | **07** | 👤 **Profile Card Builder** | Template Rendering, Input Handling | Coming Soon |
-| **08** | 🧾 **Dynamic Invoice Generator** | Complex Calculations, Print Styling | Coming Soon |
+| **08** | 🧾 **Dynamic Invoice Generator** | Complex Calculations, Print Styling | [🔗 Demo](https://riteshpatel1884.github.io/20-Days-20-JS-Projects/Day%206/Project%207%20-%20Dynamic%20Invoice%20Generator/) |
 | **09** | 🧮 **Advanced Calculator** | Eval Safety, Complex Logic | Coming Soon |
 | **10** | ⚡ **Debounce & Throttle Demo** | Performance Optimization | Coming Soon |
 | **11** | ✔️ **Form Validation** | Regex, Error Handling, UX | Coming Soon |
