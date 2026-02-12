@@ -69,6 +69,7 @@ const show = document.getElementById("show");
 const subtotal_span = document.getElementById("subtotal_span");
 const total_span = document.getElementById("total_span");
 const tax = document.getElementById("tax");
+const tax_span = document.getElementById("tax_span");
 
 let subtotal = 0;
 let total = 0;
@@ -87,8 +88,8 @@ form.addEventListener("submit", function (e) {
   };
   console.log(name, qty, amt);
 
-  if(!name){
-    alert("Please enter a valid item name")
+  if (!name) {
+    alert("Please enter a valid item name");
     return;
   }
   const parentDiv = document.createElement("div");
@@ -110,7 +111,7 @@ form.addEventListener("submit", function (e) {
     subtotal_span.innerText = subtotal;
 
     let taxAmount = subtotal * 0.18;
-
+    tax_span.innerText = taxAmount.toFixed(2);
     total = subtotal + taxAmount;
     total_span.innerText = total.toFixed(2);
 
@@ -121,7 +122,7 @@ form.addEventListener("submit", function (e) {
   subtotal_span.innerText = subtotal;
 
   let taxAmount = subtotal * 0.18;
-
+  tax_span.innerText = taxAmount.toFixed(2);
   total = subtotal + taxAmount;
   total_span.innerText = total.toFixed(2);
 
