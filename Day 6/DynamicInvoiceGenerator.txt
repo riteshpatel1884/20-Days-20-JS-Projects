@@ -1,0 +1,44 @@
+Step 1 — Design the UI (HTML)
+You need two main sections:
+A. Input Section
+-> Item name
+-> Quantity
+-> Price
+-> Add button
+
+B. Invoice Section
+-> Table showing items
+-> Subtotal
+-> Total
+
+
+Step 2 — Data Structure (important)
+-> Each item should be stored as an object:
+{
+  name: "Pen",
+  quantity: 2,
+  price: 10,
+  total: 20
+}
+-> Store all items in an array: let items = [];
+
+
+Step 3 — Render Invoice Table
+Create a function: renderInvoice(items)
+Inside it:
+-> Clear table body
+-> Loop through items
+-> Create rows dynamically
+
+Important rule:
+Always render from the array, not manually append rows randomly.
+
+
+Step 5 — Calculate Totals
+-> Subtotal logic: sum of item totals
+-> You can calculate using: reduce()
+-> Then display: Subtotal and Grand Total
+
+
+Improved version:
+Don't repeat the item if it is duplicated instead of it only increase its qty.
