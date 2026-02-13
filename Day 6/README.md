@@ -30,6 +30,8 @@ A JavaScript-based Dynamic Invoice Generator that allows users to create invoice
 ---
 
 ## 📸 Preview
+<img width="1913" height="1144" alt="image" src="https://github.com/user-attachments/assets/ae78546e-6452-48e4-b655-9c366c89e9a7" />
+<img width="1919" height="1059" alt="image" src="https://github.com/user-attachments/assets/c8a11150-9666-46be-ab96-d50544d965b0" />
 
-Open the live demo link to see the project in action.
+
 
