@@ -1,0 +1,17 @@
+Step 1 - Input field
+-> GitHub username
+-> Search button
+
+
+Step 2 — Understand the API
+-> https://api.github.com/users/{username}
+
+
+Step 3 - show details
+-> Show profile details:
+-> Avatar
+-> Name
+-> io
+-> Followers
+-> Public repos
+
