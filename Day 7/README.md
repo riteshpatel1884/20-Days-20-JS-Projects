@@ -1,6 +1,7 @@
+📅 Day 7 – GitHub Profile Viewer
 🧾 GitHub Profile Viewer
 
-A JavaScript-based GitHub Profile Viewer that allows users to search for any GitHub username and instantly view profile details using the GitHub public API.
+A JavaScript-based GitHub Profile Viewer that allows users to search GitHub usernames and view profile details in real time using the GitHub public API.
 
 🚀 Live Demo
 
@@ -9,25 +10,18 @@ A JavaScript-based GitHub Profile Viewer that allows users to search for any Git
 🛠 Tech Stack
 
 HTML
-
 CSS
-
 JavaScript
-
-GitHub Public API
 
 ✨ Features
 
 Search GitHub users by username
-
 Fetch real-time data from GitHub API
-
-Displays profile image, bio, followers, following, and repositories
-
+Display profile image, bio, followers, and repositories
 Error handling for invalid usernames
-
 Clean and responsive UI
-
-Beginner-friendly API integration
+Beginner-friendly JavaScript logic
 
 📸 Preview
+
+Add screenshot here
