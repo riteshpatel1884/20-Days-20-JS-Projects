@@ -75,7 +75,7 @@ Each day introduces a new concept through a **real-world application**, ensuring
 |:---:|---------|--------------|:---------:|
 | **16** | ⌨️ **Typing Speed Tester** | Timing Functions, Performance Metrics | Coming Soon |
 | **17** | 🎯 **Drag & Drop Todo Board** | Drag/Drop API, Visual Feedback | Coming Soon |
-| **18** | 🐙 **GitHub Profile Viewer** | Fetch API, Async/Await, Error Handling | Coming Soon |
+| **18** | 🐙 **GitHub Profile Viewer** | Fetch API, Async/Await, Error Handling | [🔗 Demo](https://riteshpatel1884.github.io/20-Days-20-JS-Projects/Day%208/Project%209%20-%20Pagination%20simulator/) |
 | **19** | ✅ **Advanced Form Validator** | Complex Validation, Custom Patterns | Coming Soon |
 | **20** | 📝 **Markdown Previewer** | Real-time Parsing, Split View | Coming Soon |
 
