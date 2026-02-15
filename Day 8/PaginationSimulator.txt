@@ -1,0 +1,44 @@
+Step 1 — Decide Pagination Logic
+You need these variables:
+-> currentPage
+-> itemsPerPage
+-> totalItems
+-> totalPages = Math.ceil(totalItems / itemsPerPage)
+
+
+Step 2 — Slice Data for Current Page
+Core logic:
+-> startIndex = (currentPage - 1) * itemsPerPage
+-> endIndex = startIndex + itemsPerPage
+-> visibleItems = data.slice(startIndex, endIndex)
+
+This is the heart of pagination.
+If you don’t understand this part, everything else is decoration.
+
+
+Step 3 — Render Items
+Display:
+-> Title
+-> Description
+-> ID
+
+
+Step 4 — Pagination Controls
+Add:
+-> Next button
+-> Previous button
+-> Page numbers
+
+
+Step 5 — Disable Buttons Properly
+Most beginners forget this and it looks amateur.
+Rules:
+-> Disable Prev on page 1
+-> Disable Next on last page
+
+
+Step 6 — Show Page Info
+Make UI informative:
+-> Showing 21–30 of 100 results
+
+That small detail makes the project look more real.
