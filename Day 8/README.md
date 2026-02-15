@@ -6,7 +6,7 @@ A JavaScript-based Pagination Simulator that demonstrates how pagination works b
 
 ## 🚀 Live Demo
 
-👉 https://riteshpatel1884.github.io/20-Days-20-JS-Projects/Day%208/Project%209%20-%20Pagination%20Simulator/
+👉 https://riteshpatel1884.github.io/20-Days-20-JS-Projects/Day%208/Project%209%20-%20Pagination%20simulator/
 
 ---
 
