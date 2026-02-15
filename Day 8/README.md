@@ -29,6 +29,9 @@ Beginner-friendly JavaScript implementation
 ---
 
 ## 📸 Preview
-/>
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/526227c4-1230-4f54-b32d-099bf0d5cc35" />
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/baf1abba-60ce-4bed-ba28-e9eb2e468f79" />
+
+
 
 
