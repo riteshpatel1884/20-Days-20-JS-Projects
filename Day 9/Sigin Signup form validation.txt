@@ -1,0 +1,22 @@
+Step 1 - Sign-up fields (typical):
+- Name
+- Email
+- Password
+- Confirm Password
+
+Step 2 - Sign-in fields:
+- Email
+- Password
+
+Step 3 -Each input needs state:
+- value
+- error message
+
+Step 4 - Create a separate validation function:
+- Check empty fields
+- Check email format
+- Check password length
+- Check confirm password match
+
+Return errors object.
+
