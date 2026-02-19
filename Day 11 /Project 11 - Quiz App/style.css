@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Bebas+Neue&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg:             #0a0a0a;
+  --surface:        #111111;
+  --border:         #222222;
+  --text:           #f0f0f0;
+  --muted:          #555555;
+  --accent:         #ffffff;
+  --btn-bg:         #1a1a1a;
+  --btn-hover:      #ffffff;
+  --btn-hover-text: #000000;
+}
+
+/* ── Body ── */
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Space Mono', monospace;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Subtle grid texture overlay */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ── Quiz Card ── */
+.quizContainer {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 600px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 3rem;
+  box-shadow: 4px 4px 0 #2a2a2a, 0 0 80px rgba(255,255,255,0.03);
+}
+
+/* Decorative top label */
+.quizContainer::before {
+  content: 'OOP QUIZ';
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.45em;
+  color: var(--muted);
+  display: block;
+  margin-bottom: 2rem;
+}
+
+/* ── Question heading ── */
+#question {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+  margin-bottom: 2.5rem;
+  color: var(--text);
+  min-height: 3rem;
+  animation: fadeUp 0.25s ease both;
+}
+
+/* ── Options wrapper ── */
+#options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 2.5rem;
+}
+
+/* ── Option buttons ── */
+#options button {
+  background: var(--btn-bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 1rem 2.5rem 1rem 1.25rem;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  animation: fadeUp 0.25s ease both;
+}
+
+/* Hover arrow */
+#options button::after {
+  content: '→';
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+  font-size: 0.85rem;
+  transition: opacity 0.15s ease;
+}
+
+#options button:hover {
+  background: var(--btn-hover);
+  color: var(--btn-hover-text);
+  border-color: var(--btn-hover);
+}
+
+#options button:hover::after {
+  opacity: 1;
+  color: var(--btn-hover-text);
+}
+
+/* Correct state */
+#options button.correct {
+  background: #ffffff;
+  color: #000000;
+  border-color: #ffffff;
+}
+
+#options button.correct::after {
+  content: '✓';
+  opacity: 1;
+  color: #000000;
+}
+
+/* Wrong state */
+#options button.wrong {
+  background: transparent;
+  color: #333333;
+  border-color: #1a1a1a;
+  text-decoration: line-through;
+  cursor: default;
+}
+
+#options button.wrong::after {
+  display: none;
+}
+
+#options button:disabled {
+  cursor: default;
+}
+
+/* ── Next button ── */
+#nextBtn {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 0.85rem 2rem;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+#nextBtn:hover {
+  background: var(--accent);
+  color: #000000;
+  border-color: var(--accent);
+}
+
+/* ── Score display ── */
+#score {
+  margin-top: 1.5rem;
+  font-size: 0.72rem;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+}
+
+/* ── Fade-up animation ── */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
